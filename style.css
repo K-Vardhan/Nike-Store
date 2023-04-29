@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     padding: 0;
@@ -74,8 +78,8 @@ nav {
 }
 
 .sliderBg {
-    width: 750px;
-    height: 750px;
+    width: 900px;
+    height: 900px;
     border-radius: 50%;
     position: absolute;
 
@@ -167,49 +171,87 @@ nav {
     color: cornsilk;
 }
 
-.features{
+.features {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:50px ;
+    padding: 50px;
 }
 
-.feature{
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.featureIcon{
+.featureIcon {
     width: 50px;
     height: 50px;
 }
 
-.featureTitile{
+.featureTitile {
     font-size: 20px;
     font-weight: 600;
     margin: 20px;
 }
 
-.featureDesc{
+.featureDesc {
     color: gray;
     width: 50%;
     height: 100px;
 }
 
-.product{
+.product {
     height: 100vh;
     background-color: whitesmoke;
     position: relative;
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 }
 
-.productImg{
+.payment {
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 22px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 22px -3px rgba(0, 0, 0, 0.75);
+}
+
+.payTitle{
+    font-size: 20px;
+    color: lightgray
+}
+
+.lable{
+    font-size:14px;
+    font-weight: 300;
+}
+
+.payInput{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.payInput::placeholder {
+    color: rgb(163, 163, 163);
+  }
+
+.productImg {
     width: 50%;
 }
 
-.productDetails{
+.productDetails {
     position: absolute;
     top: 10%;
     right: 0;
@@ -217,22 +259,23 @@ text-align: center;
     padding: 50px;
 }
 
-.productTitle{
+.productTitle {
     font-size: 75px;
     font-weight: 900;
 }
 
-.productDesc{
+.productDesc {
     font-style: 24px;
     color: gray;
 }
 
-.colors,.sizes{
+.colors,
+.sizes {
     display: flex;
     margin-bottom: 20px;
 }
 
-.color{
+.color {
     width: 32px;
     height: 32px;
     border-radius: 5px;
@@ -241,11 +284,11 @@ text-align: center;
     cursor: pointer;
 }
 
-.color:last-child{
+.color:last-child {
     background-color: blue;
 }
 
-.size{
+.size {
     padding: 5px 20px;
     border: 1px solid black;
     margin-right: 10px;
@@ -253,7 +296,7 @@ text-align: center;
     font-size: 20px;
 }
 
-.productButton{
+.productButton {
     float: right;
     padding: 10px 20px;
     background-color: black;
@@ -263,8 +306,7 @@ text-align: center;
     border-radius: 5px;
 }
 
-.productButton:hover{
+.productButton:hover {
     background-color: white;
     color: black;
 }
-
