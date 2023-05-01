@@ -78,8 +78,8 @@ nav {
 }
 
 .sliderBg {
-    width: 900px;
-    height: 900px;
+    width: 700px;
+    height: 700px;
     border-radius: 50%;
     position: absolute;
 
@@ -247,6 +247,37 @@ nav {
     color: rgb(163, 163, 163);
   }
 
+.cardIcons{
+    display: flex;
+}
+
+.cardIcon{
+    margin-right: 10px;
+}
+
+.cardInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm{
+   width: 30%;
+}
+
+.payButton{
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    -webkit-box-shadow: 1px 1px 22px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 22px -3px rgba(0, 0, 0, 0.75);
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
 .productImg {
     width: 50%;
 }
