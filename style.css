@@ -21,6 +21,12 @@ nav {
     justify-content: space-between;
 }
 
+.logoIcon {
+    height: 50px;
+    width: 100px;
+    
+}
+
 .search {
     display: flex;
     align-items: center;
@@ -576,15 +582,15 @@ footer {
         height: 20px;
         margin-right: 20px;
     }
-    
+
     .copyright {
         font-weight: 300;
         font-size: 14px;
     }
-    
 
-    .payment{
+
+    .payment {
         width: 90%;
         padding: 20px;
-      }
+    }
 }
